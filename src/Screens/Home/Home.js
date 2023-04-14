@@ -28,7 +28,7 @@ const Home = () => {
             <Videopop />
             <VideoScreen />            
             <Category/>             
-            <Client/>
+            {/* <Client/> */}
             <Register/>
             <FaqHome/>
             <Contact />

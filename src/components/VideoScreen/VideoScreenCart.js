@@ -39,13 +39,13 @@ const VideoScreenCart = () => {
                 transitionDuration={500}
                 arrows={false}
             >
-                {/* <div className="video-img mx-2">
-                    <video src={video1}  controls height={500}></video>
+                <div className="video-img mx-2">
+                    <video src="https://livvywebsite.s3.ap-south-1.amazonaws.com/video1+(1).mp4"  controls height={500}></video>
                     <div className="details_1">
                     <h4>Founder Story</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim temporibus quos repudiandae magni eius, eveniet aperiam delectus suscipit sunt reprehenderit.</p>
+                    {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim temporibus quos repudiandae magni eius, eveniet aperiam delectus suscipit sunt reprehenderit.</p> */}
                 </div>
-                </div> */}
+                </div>
                 <div className="video-img mx-3">
                     <video src="https://livvywebsite.s3.ap-south-1.amazonaws.com/video-output-4EBFEEE5-1324-414A-8BBD-25197B6E6DFB.MOV"  controls  height={500}></video>
                     <div className="details_1">

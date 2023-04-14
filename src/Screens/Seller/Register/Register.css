@@ -1,0 +1,71 @@
+.seller_register .container {
+  background-color: #6f42c1;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.seller_register_inner {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  padding: 30px;
+  background-repeat: no-repeat;
+}
+.seller_register_inner p {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-left: 1rem;
+}
+
+.seller_register h4 {
+  color: #ffffff;
+  font-size: 50px;
+  line-height: 68px;
+  font-weight: 700;
+  margin-left: 1rem;
+}
+.seller_register .btns {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.seller_register .btns .btn img {
+  height: 75px;
+}
+.center_div {
+  margin-top: 6%;
+  align-self: left;
+}
+.seller_register .register_img {
+  display: flex;
+  align-self: right;
+}
+
+.seller_register .register_img img {
+  height: 400px;
+}
+
+@media (max-width: 767px) {
+  .seller_register_inner {
+    padding: 0px 15px;
+    flex-direction: column;
+    background-size: contain;
+   
+  }
+
+  .seller_register h4{
+    text-align: center;
+  }
+  .seller_register .register_img img{
+    padding: 10px;
+  }
+  
+
+  
+}

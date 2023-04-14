@@ -1,0 +1,15 @@
+ .screenshot-item{
+    margin: 15px;
+}
+
+.app-screenshots{
+    height: 100vh;
+    padding: 60px 0;
+}
+
+.screenshot-img img{
+    width: 100%;
+    max-width: 260px;
+    display: block;
+    margin: auto;
+}

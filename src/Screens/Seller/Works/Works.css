@@ -1,0 +1,141 @@
+.wok{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 5rem 2rem;
+/* margin-left: 6rem; */
+}
+
+.tilt{
+  width: 100%;
+}
+
+.work-card{
+  display: flex;
+   /* margin-top: 5rem; */
+ 
+   /* margin: 5rem 2rem; */
+   align-items: center;   
+   justify-items: center;
+   justify-content: center;
+   flex-wrap: wrap;   
+   gap: 1rem;   
+}
+
+
+
+.card-arrow{
+  height: 2rem;
+  width: 10rem;
+  margin-top: 2rem;
+margin-left: 10px;
+  /* object-fit: contain; */  
+}
+
+.works-heading{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 2rem;
+}
+
+.wok .works-heading span{
+  color: var(--main);
+}
+
+
+.card-work{
+  width: 40vh;
+  padding: 1px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  --tw-bg-opacity: 1;
+  /* border: 1px solid black; */
+    /* background-color: #4d4fb6; */
+  /* box-shadow: 0 0 5px 0 rgba(0,0,0,.1); */
+  cursor: pointer;
+}
+
+.card-work .card-intro{
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  margin-left: 2rem;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  /* padding: 3rem; */
+  text-align: center;
+  min-height: 280px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card-text{
+  
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #000;
+
+}
+.card-img{
+  height: 4.5rem;
+  width: 4.5rem;
+  object-fit: cover;
+ 
+  
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.card-intro{
+ background-color: var(--main-color);
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px; 
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 2rem;
+  text-align: center;
+ 
+  
+}
+
+.card-intro h3{
+  color: #fff;
+  font-weight: bold;
+}
+.card-intro h2{
+  font-size: 3rem;
+  font-weight: bolder;
+  background-color: #fff;
+  color: var(--main-color);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 30%;
+  margin-bottom: 1rem;
+}
+
+.card-intro {
+ 
+}
+
+@media screen and (min-width: 1224){
+
+}

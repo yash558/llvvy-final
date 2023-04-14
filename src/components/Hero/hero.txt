@@ -1,0 +1,31 @@
+ {/* <div className="hero-img">
+              <div className="circle">
+              </div>
+              <div className="i-right">
+                <img src={Vector1} alt="" className="vector1" />
+                <img src={Vector2} alt="" className="vector2" />
+                <img src={main} className='main' alt="" />
+                {/* animation */}
+
+                <motion.div
+                  initial={{ top: "-4rem", left: "10rem" }}
+                  whileInView={{ left: "68%" }}
+                  transition={transition}
+                  className="floating-div"
+                >
+                  <FloatinDiv text1="Homegrown brand" text2="" />
+                </motion.div>
+
+                animation
+                <motion.div
+                  initial={{ left: "9rem", top: "15rem" }}
+                  whileInView={{ left: "-10%" }}
+                  transition={transition}
+                  className="floating-div"
+                >
+                  floatinDiv mein change hy dark mode ka
+                  <FloatinDiv text1="First ever socio-commerce  
+" text2="brand in India" />
+                </motion.div>
+              </div>
+            </div> */}

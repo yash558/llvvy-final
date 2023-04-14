@@ -66,10 +66,7 @@ const FaqUsers = () => {
                 rows[0].close();
             }, 5000);
 
-            setTimeout(() => {
-                rows[0].scrollIntoView();
-                // rows[0].scrollIntoView(true);
-            }, 10000);
+            
         }
     }, [rows]);
 

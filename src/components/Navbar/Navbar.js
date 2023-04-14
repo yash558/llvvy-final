@@ -6,21 +6,7 @@ import android from '../../assets/android.png'
 import iphone1 from '../../assets/iphone1.png'
 
 const Navbar = () => {
-    // const [popup, setpopup] = useState('close');
-
-    // const open = () => {
-    //     switch (popup) {
-    //         case 'close':
-    //             setpopup('open');
-    //             return;
-    //         case 'open':
-    //             setpopup('close');
-    //             return;
-    //         default:
-    //             setpopup('close');
-    //             return;
-    //     }
-    // }
+   
     return (
         <nav className="navbar navbar-expand-lg bg-transparent">
             <div className="container-fluid col-10 mx-auto ">
@@ -33,23 +19,23 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <Link activeClass="active" to="/" className='nav-link'>Home</Link>
+                            <Link to="/" className='nav-link'>Home</Link>
                         </li>
                        
                         {/* <li className="nav-item">
-                            <Link activeClass="active" to="/features" className='nav-link' >Features</Link>
+                            <Link to="/features" className='nav-link' >Features</Link>
                         </li> */}
                         <li className="nav-item">
-                            <Link activeClass="active" to="/seller" className='nav-link' >Seller</Link>
+                            <Link to="/seller" className='nav-link' >Seller</Link>
                         </li>
                         <li className="nav-item">
-                            <Link activeClass="active" to="/creator" className='nav-link' >Creator</Link>
+                            <Link to="/creator" className='nav-link' >Creator</Link>
                         </li>
                         <li className="nav-item">
-                            <Link activeClass="active" to="/about" className='nav-link' >About</Link>
+                            <Link to="/about" className='nav-link' >About</Link>
                         </li>
                         <li className="nav-item">
-                            <Link activeClass="active" to="/contact" className='nav-link' >Contact</Link>
+                            <Link to="/contact" className='nav-link' >Contact</Link>
                         </li>
                     </ul>
                     <div className="button">

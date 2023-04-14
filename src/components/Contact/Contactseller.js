@@ -72,7 +72,7 @@ const ContactSeller = () => {
                                 <div className="row">
                                     <div className="col-lg-12">
                                         <div className="form-group">
-                                            <textarea name="message" type="Your Message" placeholder='Subject' class="form-control" />
+                                            <textarea name="message" type="Your Message" placeholder='Subject' className="form-control" />
                                         </div>
                                     </div>
                                 </div>

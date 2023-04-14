@@ -35,12 +35,11 @@ const Footer = () => {
                         <div className="footer-col">
                             <h3>Quicks Links</h3>
                             <ul>
-                                <li><Link className='links' to="hero" spy={true} smooth={true} offset={50} duration={100}>Home</Link></li>
-                                <li><Link className='links' to="features" spy={true} smooth={true} offset={50} duration={100}>Features</Link></li>
-                                <li><Link className='links' to="app-video" spy={true} smooth={true} offset={50} duration={100}>Content</Link></li>
-                                <li><Link className='links' to="fun-facts" spy={true} smooth={true} offset={50} duration={100}>About</Link></li>
-                                <li><Link className='links' to="testimonials" spy={true} smooth={true} offset={50} duration={100}>Blog</Link></li>
-                                <li><Link className='links' to="contact" spy={true} smooth={true} offset={50} duration={100}>Contact</Link></li>
+                                <li><Link className='links' to="/" >Home</Link></li>
+                                <li><Link className='links' to="/seller" >Seller</Link></li>
+                                <li><Link className='links' to="/creator" >Creator</Link></li>
+                                <li><Link className='links' to="/about" >About</Link></li>
+                                <li><Link className='links' to="/contact" >Contact</Link></li>
                             </ul>
                         </div>
                     </div>

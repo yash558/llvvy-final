@@ -26,7 +26,7 @@ const Footer = () => {
                             <ul>
                                 <li><a href="/">Privacy Policy</a></li>
                                 <li><a href="/">Terms & Condition</a></li>
-                                <li><a href="/">latest Blogs</a></li>
+                                <li><a href="/">Latest Blogs</a></li>
                                 <li><a href="/">App Services</a></li>
                             </ul>
                         </div>
@@ -49,7 +49,7 @@ const Footer = () => {
                             <h3>Social Pages</h3>
                             <ul>
                                 <li><a href="/">Facebook</a></li>
-                                <li><a href="/">twitter</a></li>
+                                <li><a href="/">Twitter</a></li>
                                 <li><a href="/">Instagram</a></li>
                                 <li><a href="/">Linkedin</a></li>
                             </ul>
